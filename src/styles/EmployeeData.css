@@ -1,0 +1,126 @@
+
+.emp-data{
+    width: calc(100% - 80px);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 20px;
+    margin-top: 20px;
+    direction: rtl;
+    margin-left: 10px;
+}
+.emp-data h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 22px;
+}
+.input-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+.input-info input{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.edit-photo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.edit-photo input{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+.emp-data .div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.emp-data .div2 .eff-emp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+.emp-data .div2 .eff-emp .text-body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.emp-data .div2 .eff-emp .text-body h3{
+    font-size: 17px;
+    padding: 0.5em 1em;
+    border: transparent;
+    background: #002D62;
+    color: white;
+    border-radius: 4px;
+    border-radius: 20px;
+}
+.emp-data .div2 .manage{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+.emp-data .div2 .manage input{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    .emp-data .div2{
+        display: flex;
+        flex-direction: column;
+    }
+    .emp-data .div2 .manage{
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+    .emp-data .div2 .eff-emp .text-body{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:670px) {
+    .emp-data .info-emp{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit-photo{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .edit-photo img{
+        width: 100%;
+        height: 300px;
+    }
+}
